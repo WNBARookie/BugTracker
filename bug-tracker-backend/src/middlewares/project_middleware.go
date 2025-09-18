@@ -5,10 +5,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/WNBARookie/BugTracker/bug-tracker-backend/api"
-	"github.com/WNBARookie/BugTracker/bug-tracker-backend/conf"
-	"github.com/WNBARookie/BugTracker/bug-tracker-backend/models"
-	"github.com/WNBARookie/BugTracker/bug-tracker-backend/utils"
+	"github.com/WNBARookie/BugTracker/bug-tracker-backend/src/conf"
+	"github.com/WNBARookie/BugTracker/bug-tracker-backend/src/models"
+	api "github.com/WNBARookie/BugTracker/bug-tracker-backend/src/types"
+	"github.com/WNBARookie/BugTracker/bug-tracker-backend/src/utils"
 )
 
 func ProjectCheckMiddleware(c *gin.Context) {

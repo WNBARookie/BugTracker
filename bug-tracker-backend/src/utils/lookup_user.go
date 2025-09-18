@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"github.com/WNBARookie/BugTracker/bug-tracker-backend/conf"
-	"github.com/WNBARookie/BugTracker/bug-tracker-backend/models"
+	"github.com/WNBARookie/BugTracker/bug-tracker-backend/src/conf"
+	"github.com/WNBARookie/BugTracker/bug-tracker-backend/src/models"
 )
 
 func LookupUserUsingID(id uint) (*models.User, error) {

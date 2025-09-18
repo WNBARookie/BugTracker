@@ -2,12 +2,13 @@ package main
 
 import (
 	"time"
-	"github.com/gin-gonic/gin"
-	"github.com/gin-contrib/cors"
 
-	"github.com/WNBARookie/BugTracker/bug-tracker-backend/conf"
-	"github.com/WNBARookie/BugTracker/bug-tracker-backend/middlewares"
-	"github.com/WNBARookie/BugTracker/bug-tracker-backend/routes"
+	"github.com/gin-contrib/cors"
+	"github.com/gin-gonic/gin"
+
+	"github.com/WNBARookie/BugTracker/bug-tracker-backend/src/conf"
+	"github.com/WNBARookie/BugTracker/bug-tracker-backend/src/middlewares"
+	"github.com/WNBARookie/BugTracker/bug-tracker-backend/src/routes"
 )
 
 func init() {
