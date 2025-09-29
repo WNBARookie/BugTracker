@@ -20,7 +20,7 @@ func main() {
 	router := gin.Default()
 
 	router.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:5000","https://bug-tracker-wk6k.vercel.app/api/v1"},
+		AllowOrigins:     []string{"http://localhost:5000","https://bug-tracker-wk6k.vercel.app","https://bug-tracker-hvx2.vercel.app"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
 		ExposeHeaders:    []string{"Content-Length"},
