@@ -7,5 +7,6 @@ export default defineConfig({
   plugins: [tailwindcss(), react()],
   server: {
     port: 5000,
+    allowedHosts: ['https://bug-tracker-hvx2.vercel.app/', 'https://bug-tracker-alpha-ivory.vercel.app/'],
   },
 });
